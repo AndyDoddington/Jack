@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jack">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
