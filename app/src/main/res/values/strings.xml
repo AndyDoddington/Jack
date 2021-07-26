@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jack</string>
+    <string name="MAPBOX_PUBLIC_TOKEN">pk.eyJ1IjoiYW5keWRvZGRpbmd0b24iLCJhIjoiY2tyOTM4Y3NvM29nZzJvbnh5ajA5cXBtdSJ9.IaQidaNAyPO471GnfF17Kg</string>
+</resources>
