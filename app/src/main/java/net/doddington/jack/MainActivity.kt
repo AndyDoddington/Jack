@@ -1,7 +1,6 @@
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import com.mapbox.maps.CameraOptions
 import com.mapbox.maps.Style
 import com.mapbox.maps.plugin.gestures.gestures
@@ -85,7 +84,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-class LocationPermissionHelper(val activity: Activity) {
+class LocationPermissionHelper(val activity: AppCompatActivity) {
     private lateinit var permissionsManager: PermissionsManager
 
     fun checkPermissions(onMapReady: () -> Unit) {
